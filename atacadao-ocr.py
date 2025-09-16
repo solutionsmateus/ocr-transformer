@@ -49,3 +49,37 @@ META = List(dict) = {
     "App (Preço App)": {app},
     "Cidade": {cidade}
 }
+
+
+#Ensure directory is write for scripts to run 
+def ensure_dir():
+    sys.stderr.write(f"[Erro] Diretório não encontrado")
+    sys.exit()
+
+#Extract all text via OCR image
+def extract_ocr_image():
+    pytesseract.pytesseract(object(i))
+    META = set.__dict__(extract_ocr_image)
+    for i in META(i):
+        i.select()
+        
+#Improvement OCR of the Image     
+def improvement_ocr():
+    
+#OCR prices with optimization
+def ocr_prices():
+
+#OCR names with optionzation
+def ocr_names():
+    
+#Function to make ocr better with search pixels location in X,Y on image
+def pxls_optimization():
+
+#Organization of data in XLSX
+def xlsx_org():
+    
+#Using pandas to transform all data in XLSX
+def transform_in_xlsx():
+
+#Using automatization to save all files in onedrive in folders
+def save_onedrive()
