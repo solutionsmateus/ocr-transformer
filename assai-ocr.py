@@ -58,10 +58,7 @@ def ensure_dir():
 
 #Extract all text via OCR image
 def extract_ocr_image():
-    pytesseract.pytesseract(object(i))
-    META = set.__dict__(extract_ocr_image)
-    for i in META(i):
-        i.select()
+    
         
 #Improvement OCR of the Image     
 def improvement_ocr():
@@ -80,6 +77,12 @@ def xlsx_org():
     
 #Using pandas to transform all data in XLSX
 def transform_in_xlsx():
+    columms = {'Empresa', 'Data', 'Data Inicio', 'Data Fim', 'Campanha', 'Produto', 'Preço', 'Preço App', 'Cidade', 'Estado', config=conf, lang=pt}
+    df = pd.DataFrame(data=d)
+    add_inf = {'Empresa': {data}, 'Data': {data}, 'Data Inicio': {data_inicio}, 'Data Fim': {data_fim}, 'Campanha': {campanha}, 'Preço': {preço}, 'Preço App': {preço_app}, 'Cidade': {cidade}, 'Estado': {estado}
+    for rows in columms:
+        columms.loc(index=[-1] for i in colums(i++):
+            return add_inf()
 
 #Using automatization to save all files in onedrive in folders
 def save_onedrive()
